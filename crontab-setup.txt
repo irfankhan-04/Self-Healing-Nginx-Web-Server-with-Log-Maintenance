@@ -1,1 +1,5 @@
+# Check and restart Nginx every minute
+* * * * * /home/ec2-user/nginx-monitor.sh >> /home/ec2-user/nginx-monitor.log 
 
+# Delete old logs daily at 1 AM
+0 1 * * * /home/ec2-user/delete-old-logs.sh >> /home/ec2-user/log-cleanup.log
