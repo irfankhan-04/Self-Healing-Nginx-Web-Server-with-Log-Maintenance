@@ -1,1 +1,130 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Irfan | IT Support Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #3498db;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .project {
+      background: white;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .contact {
+      background: #ecf0f1;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background: #2c3e50;
+      color: white;
+    }
+
+    @media (max-width: 768px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Irfan</h1>
+    <p>Application Support Engineer | Immediate Joiner | AWS Certified Cloud Practitioner</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a passionate and detail-oriented IT professional with hands-on experience in Linux, AWS, and application support. 
+      I thrive in solving real-world technical challenges and am always eager to learn and grow in a professional environment.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Operating Systems: Linux (Ubuntu, Amazon Linux), Windows</li>
+      <li>Cloud: AWS (EC2, S3, IAM, CloudWatch)</li>
+      <li>IT Tools: Git, GitHub, SSH, cPanel</li>
+      <li>Scripting: Bash</li>
+      <li>Support: Incident resolution, system monitoring, service restart & backup management</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Automated Backup Script</h3>
+        <p>
+          Created a shell script to automate backup of log files using `tar` and `cron`. Ensured daily rotation and archival.
+        </p>
+      </div>
+      <div class="project">
+        <h3>AWS EC2 Web Hosting</h3>
+        <p>
+          Deployed a static website using Nginx on Amazon EC2. Configured security groups and managed SSH-based access.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact">
+      <p><strong>Email:</strong> your.email@example.com</p>
+      <p><strong>Phone:</strong> +91-XXXXXXXXXX</p>
+      <p><strong>Location:</strong> Beed, Maharashtra, India</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Irfan | All Rights Reserved
+  </footer>
+</body>
+</html>
