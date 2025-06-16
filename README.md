@@ -39,19 +39,24 @@ This project demonstrates how to deploy a static portfolio website using **Nginx
 
 ### 📌 Portfolio Page Hosted via Nginx
 
-![Portfolio Screenshot](./images/portfolio.png)
+![hosted](https://github.com/user-attachments/assets/f22c95f7-e790-4e3a-965b-2fc02b096060)
 
 ### 🔁 Auto-Restart Script Output
 
-![Auto Restart](./images/nginx-restart.png)
+![new script](https://github.com/user-attachments/assets/06513dfd-e89f-4ff2-ab03-79466e34c402)
+
+![script run sucsses](https://github.com/user-attachments/assets/ad8f5453-044e-4c9f-886d-72e0b469215d)
 
 ### 🧹 Log Cleanup Script Execution
 
-![Log Cleanup](./images/log-cleanup.png)
+![NEW OLD LOG DLETE SH](https://github.com/user-attachments/assets/0bcc362f-1fbd-4993-a99e-b89e9300a9f3)
+
+![cat housekee log](https://github.com/user-attachments/assets/928ef34d-11ed-49a7-9b36-4c9ca2e5ae99)
+
 
 ### 🕒 Cron Job Entries
 
-![Cron Job](./images/cron-setup.png)
+![cron final -l](https://github.com/user-attachments/assets/27596278-c254-4578-85c8-f322e078f2e1)
 
 ---
 
@@ -74,15 +79,12 @@ Upload both scripts to your instance and make them executable:
 chmod +x nginx-monitor.sh delete-old-logs.sh
 Set up cron jobs using crontab -e.
 
-💡 Future Improvements
-Add SSL using Let's Encrypt
-
 Set up monitoring alerts (email, push)
 
 Use systemd for more robust service monitoring
 
 📬 Contact
 Irfan
-LinkedIn: linkedin.com/in/your-profile
-Email: your.email@example.com
+LinkedIn: https://www.linkedin.com/in/irfan-khan04
+Email: er.irfankhan4@gmail.com
 
