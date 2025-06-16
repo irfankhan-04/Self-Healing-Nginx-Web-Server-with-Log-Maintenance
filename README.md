@@ -27,12 +27,17 @@ This project demonstrates how to deploy a static portfolio website using **Nginx
 
 ## 📁 Project Structure
 
--├── index.html # Portfolio website (hosted using Nginx)
--├── nginx-monitor.sh # Script to restart Nginx if it is down
--├── delete-old-logs.sh # Script to delete logs older than 7 days
--├── crontab-setup.txt # Sample cron entries for automation
--├── images/ # Folder containing screenshots
--└── README.md # Project documentation
+index.html – Portfolio website (hosted using Nginx)
+
+nginx-monitor.sh – Script to restart Nginx if it is down
+
+delete-old-logs.sh – Script to delete logs older than 7 days
+
+crontab-setup.txt – Sample cron entries for automation
+
+images/ – Folder containing screenshots
+
+README.md – Project documentation
 
 yaml
 Copy
