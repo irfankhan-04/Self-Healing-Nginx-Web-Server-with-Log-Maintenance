@@ -70,9 +70,7 @@ Upload your index.html to /usr/share/nginx/html/.
 
 Upload both scripts to your instance and make them executable:
 
-bash
-Copy
-Edit
+
 chmod +x nginx-monitor.sh delete-old-logs.sh
 Set up cron jobs using crontab -e.
 
@@ -88,16 +86,3 @@ Irfan
 LinkedIn: linkedin.com/in/your-profile
 Email: your.email@example.com
 
-pgsql
-Copy
-Edit
-
----
-
-### ✅ What to Do Now
-
-1. Create a folder called `images/` in your GitHub repo.
-2. Upload all your screenshots to that folder.
-3. Replace the `portfolio.png`, `nginx-restart.png`, etc., with your actual file names.
-
-Let me know if you want help writing the commit message or Git instructions to push this to GitHub!
